@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+a {
+	color: #34495e;
+}
+
+a {
+	text-decoration: none;
+}
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+
+
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+@media (min-width: 400px) {
+	.header,
+	.main-nav {
+		display: flex;
+        
+	}
+}
+	
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+/* 
+img {
+width: 70px;
+height: 70px;
+border-radius: 40px;
+display: flex;
+
+
+} */
+body{  
+    font-family: 'Poppins', sans-serif;  
+  }  
+  .container{  
+    max-width: 1152px;  
+    padding: 0 15px;  
+    margin: 0 auto;  
+  }  
+  .hero{  
+    padding-top: 2rem;  
+    padding-bottom: 3rem;  
+  }  
+  .hero .left img{  
+    width: 400px;  
+  }  
+  .hero .right {  
+    color: var(--white);  
+    margin-top: -7rem;  
+  }  
+  .hero .right h6{  
+    font-size: 1.6rem;  
+    color: var(--primary);  
+    margin-bottom: 0.5rem;  
+  }  
+  .hero .right h1{  
+    font-size: 4rem;  
+    font-weight: 100;  
+    line-height: 1.2;  
+    margin-bottom: 2rem;  
+  }  
+  .hero .right h1 span{  
+    color: var(--primary);  
+  }  
+  .hero .right p{  
+    line-height: 1.9;  
+    margin-bottom: 2rem;  
+  }  body{  
+   font-family: 'Poppins', sans-serif;  
+ }  
+ .container{  
+   max-width: 1152px;  
+   padding: 0 15px;  
+   margin: 0 auto;  
+ }  
+ .hero{  
+   padding-top: 2rem;  
+   padding-bottom: 3rem;  
+ }  
+ .hero .left img{  
+   width: 400px;  
+ }  
+ .hero .right {  
+   color: var(--white);  
+   margin-top: -7rem;  
+ }  
+ .hero .right h6{  
+   font-size: 1.6rem;  
+   color: var(--primary);  
+   margin-bottom: 0.5rem;  
+ }  
+ .hero .right h1{  
+   font-size: 4rem;  
+   font-weight: 100;  
+   line-height: 1.2;  
+   margin-bottom: 2rem;  
+ }  
+ .hero .right h1 span{  
+   color: var(--primary);  
+ }  
+ .hero .right p{  
+   line-height: 1.9;  
+   margin-bottom: 2rem;  
+ }  
+ 
+

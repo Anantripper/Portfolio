@@ -1,0 +1,27 @@
+ .container-fluid{
+     background-color: aqua;
+     padding-top: 30px;
+ }
+
+ .btn btn-outline-success{
+     background-color: rgb(14, 29, 249);
+ }
+
+ #login{
+    background-color: #f9fafb;
+    display: inline-block;
+    padding-top:300px;
+    align-self: center;
+ }
+
+
+ #password{
+     padding-top: 50px;
+ }
+
+ .content{
+     border:2px solid black;
+      
+     padding:center;
+     margin-top: 100;
+ }
