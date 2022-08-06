@@ -148,6 +148,24 @@ nav ul li a:hover:after {
     justify-content: space-evenly;
 }
 
+.typewrite{
+    color: #000;
+    font-size: 3.0rem;
+    font-family:Hastna;
+}
+
+.hello{
+    text-align: center;
+
+}
+
+.contentt h2{
+    font-size: 1.5rem;
+    font-family:AlphaCentauri;
+}
+
+
+
 
 .contentt h1 {
     color: #e3c8cc;
@@ -172,7 +190,7 @@ nav ul li a:hover:after {
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
-    font-size: 5.0rem;
+    font-size: 4.0rem;
 }
 
 @keyframes textclip {
@@ -194,20 +212,21 @@ nav ul li a:hover:after {
 
     text-align: center;
     font-size: 2rem;
+    font-family: AlphaCentauri;
 }
 
 #about {
     /* background-color: #e3d2c4;
     background-image: linear-gradient(315deg, #b8c6db 0%, #fcfcfb 74%); */
     background-image: url(wave_background.svg);
-color: #cafaf2;
+color: #fafcfc;
 
 
 }
 
 .co{
-    color: #cafaf2;
-    font-family: alpha;
+    color: #f7f9f9;
+    font-family: AlphaCentauri;
 }
 
 
@@ -360,6 +379,7 @@ color: #cafaf2;
 
 .head {
     font-size: 2rem;
+    font-family: AlphaCentauri;
 }
 
 
